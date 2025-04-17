@@ -1,0 +1,49 @@
+body {
+    background: url("../images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 100px auto;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+label, input, button {
+    display: block;
+    margin: 10px auto;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
